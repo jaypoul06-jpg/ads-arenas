@@ -1,1 +1,129 @@
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6fb;
+  color: #222;
+  padding-bottom: 70px;
+}
+
+/* TOP BAR */
+.top-bar {
+  background: white;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #00c853, #64dd17);
+}
+
+/* TEXT */
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 13px;
+  color: gray;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+}
+
+/* WIDE CARD */
+.wide {
+  margin: 10px 15px;
+  text-align: left;
+}
+
+.wide button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #00c853;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* WATCH ADS BUTTON */
+.action {
+  padding: 10px 15px;
+}
+
+#watchAdsBtn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #00c853, #64dd17);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 6px 15px rgba(0,200,83,0.3);
+  cursor: pointer;
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+}
+
+.bottom-nav a:hover {
+  color: #00c853;
+}
